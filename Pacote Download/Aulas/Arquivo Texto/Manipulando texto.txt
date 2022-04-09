@@ -1,0 +1,42 @@
+	Conhecimento Conceitual Python - Manipulando Texto
+
+1.0 Fatiamento.  [STRING] CURSO EM VIDEO PYTHON
+	Considerando a String acima.
+	1.0.1. frase[9:21] Lê do 9 ao 20. Não considera o 21.
+	1.0.2. frase[9:21:2] Lê a partir do 9 até o 20 pulando de dois em 	dois.
+	1.0,3. frase[:5] Começa do 0 e lê até o 4. Não considera o 5. É o 	mesmo que escrever frase[0:5].
+	1.0.4. frase[15:] Lê do 15 até a última cadeia de caractere. É o 	mesmo que escrever frase [15:21].
+___________________________________________________
+2.0. Análise - Utilizando o método: len(frase). Len vem do Length, que significa medir o comprimento da frase.
+
+2.1. Análise - Utilizando o método: frase.count('o'). Ou seja, vai contar quantas letras 'o's têm em minúscula.
+	2.0.1. Contagem com fatiamento: frase.count('o', 0, 13). Ou 	seja, vai fatiar do 0 ao 12 e contar quantas letras 'o's têm em 	minúscula.
+
+2.2. Análise - Utilizando método: frase.find('deo'). Ou seja, vai dizer quantas vezes ele encontrou 'deo'.
+
+2.3. Análise - Utilizando método: frase.find('Android'). Se colocar uma string que não existe, o valor retornado é de -1.
+
+2.4. Análise - Utilizando o método:'palavra desejada' in frase. Isto é, dentro da frase, existe a palavra desejada?
+___________________________________________________
+3.0. Transformação - Utilizando método: frase.replace('Python', 'Android'). Isto é, vai substituir a palavra Python por Android.
+
+3.1. Transformação - Utilizando método: frase.upper(). Isto é, transformar as letras em maiusculas. As que já estão, permanecem.
+
+3.2. Transformação - Utilizando método: frase.lower(). Isto é, transformar as letras em minusculas. As que já estão, permanecem.
+
+3.3. Transformação - Utilizando método: frase.capitalize(). Isto é, vai transformar todas as letras de uma frase em minusculas, exceto a primeira letra no ínicio da frase.
+
+3.4. Transformação - Utilizando método: frase.title(). Isto é, vai analisar os espaços de uma frase e transformar todas as primeiras letras depois do espaço em maiusculas.
+
+3.5. Transformação - Utilizando método: frase.strip(). Isto é, vai deletar todos os espaços "inúteis" do ínicio e fim de frase.
+	3.0.1 - frase.rstrip() Remove só o espaço do final da frase. 	(Direita).
+	3.0.2 - frase.lstrip() Remove só o espaço do início da frase. 	(Esquerda).
+_________________________________________________________
+4.0. Divisão - Utilizando o método: frase.split(). Isto é, vai dividir uma string em uma lista.
+
+4.1. Divisão - Utilizando o método: '-'.join(frase). Vai juntar uma string na outra, após ela ser dividida pelo split.
+
+4.2. Divisão - Utilizando [-1] você descobrirá o último elemento armazenado no split.
+_________________________________________________________
+5.0. Utilizando o método: suavariavel.starswith("nome da palavra que você deseja saber se começa ou não") Você vai saber se a frase ou nome começa com a palavra definida no parêntese.
+_________________________________________________________

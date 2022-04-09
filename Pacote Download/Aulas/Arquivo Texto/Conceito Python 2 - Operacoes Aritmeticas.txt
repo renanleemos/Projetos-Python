@@ -1,0 +1,17 @@
+	Conhecimentos Conceituais Python 			      (Operadores Aritméticos)
+
+1.0. Para somar, use "+"
+1.1. Para subtrair, use "-"
+1.2. Para multiplicar, use "*"
+1.3 Para dividir, use "/"
+1.4. Para potência, use "**"
+1.5. Para divisão inteira, use "//"
+1.6. Para resto da divisão, use "%".
+_______________________________________
+		Ordem de Precedência
+
+1. ( ) - Parênteses.
+2. ** - Potencia.
+3. *, /, //, % - Multiplicação, divisão, divisão inteira, resto da divisão.
+4. + e - - Soma e substração.
+_______________________________________

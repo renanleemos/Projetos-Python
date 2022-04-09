@@ -1,0 +1,16 @@
+	Conhecimento Conceitual Python - Módulos
+
+1.0. Importação biblioteca Python.
+	1.1. Para importar uma biblioteca completa, use import nomebiblioteca. 
+	1.2. Para importar apenas uma funcionalidade de uma biblioteca, use from pasta origem armazenamento import.
+	
+2.0. Importação: Math
+	2.1. ceil = arredonda pra cima.
+	2.2. floor = arredonda pra baixo.
+	2.3. trunc = eliminar o numero da virgula p frente, sem arredondamento.
+	2.4. pow = potencia
+	2.5. sqrt = calcular a raiz quadrada
+	2.6. factorial = calculos fatoriais
+6² = 36 
+
+6² + 5² = 36 + 122 + 25 = 186
